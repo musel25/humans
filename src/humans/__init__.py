@@ -77,8 +77,8 @@ def read_humans(kind):
     
     fathers = [abraham, isaac, jacob, joseph]
     fathers_name = [i.name for i in fathers]
-    
-    mothers = sum([i.wife for i in fathers], [])
+
+    mothers = sum([list(i.children.keys()) for i in fathers], [])
     children = sum([sum(i.children.values(), []) for i in fathers], [])
     
     if kind == "fathers":
