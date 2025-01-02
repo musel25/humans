@@ -1,5 +1,9 @@
 # Humans Library
-a Python collection of biblical humans and their family relations
+a Python collection of biblical humans and their family relations.
+<br>
+Please note, this is the source code of version 0.0.1, which is the starter file for my "Create Python Package" tutorial on YouTube:
+<br>
+https://youtu.be/9Ii34WheBOA
 
 ## Quickstart
 the library provides different scopes of information
