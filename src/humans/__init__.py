@@ -101,3 +101,4 @@ children = read_humans("children")
 all_humans = read_humans("all")
 
     
+print(fathers)
